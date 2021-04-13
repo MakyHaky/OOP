@@ -60,25 +60,23 @@ void main()
 			di[i]->SetFlyBehavior(fb_flywithwings);
 			break;
 		}
-		for (int i = 0; i < a; i++)
-		{
-			di[i]->Fly();
-			di[i]->Quack();
-			di[i]->display();
-		}
-
-
-		for (int i = 0; i < a; i++)
-		{
-			delete di[i];
-		}
-		delete[] di;
-		delete fb_flywithwings;
-		delete fb_flynoway;
-		delete qb_quackquack;
-		delete qb_mutequack;
-		delete qb_squeak;
-
-		//getch();
 	}
+	for (int i = 0; i < a; i++)
+	{
+		di[i]->Fly();
+		di[i]->Quack();
+		di[i]->display();
+	}
+
+
+	for (int i = 0; i < a; i++)
+	{
+		delete di[i];
+	}
+	delete[] di;
+	delete fb_flywithwings;
+	delete fb_flynoway;
+	delete qb_quackquack;
+	delete qb_mutequack;
+	delete qb_squeak;
 }
