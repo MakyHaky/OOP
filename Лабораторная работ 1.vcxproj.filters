@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Quack">
+      <UniqueIdentifier>{ab300685-ac27-4da3-aa25-5ddc7d605789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Fly">
+      <UniqueIdentifier>{ef659a4e-35d2-41c1-ba1d-a63b04c54cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Quack">
+      <UniqueIdentifier>{5302cb4c-1f53-441b-b510-6df86d41534d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Fly">
+      <UniqueIdentifier>{e69d8147-0573-479d-9f48-607ea41e6fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Duck">
+      <UniqueIdentifier>{2264b236-9370-453f-a874-0f3d0b8ca87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Duck">
+      <UniqueIdentifier>{8a456584-ef57-4671-9f70-1b19f61f503e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackQuack.h">
+      <Filter>Файлы заголовков\Quack</Filter>
+    </ClInclude>
+    <ClInclude Include="IQuackBehavior.h">
+      <Filter>Файлы заголовков\Quack</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackMute.h">
+      <Filter>Файлы заголовков\Quack</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackSqueak.h">
+      <Filter>Файлы заголовков\Quack</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNoWay.h">
+      <Filter>Файлы заголовков\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="IFlyBehavior.h">
+      <Filter>Файлы заголовков\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.h">
+      <Filter>Файлы заголовков\Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="RubberDuck.h">
+      <Filter>Файлы заголовков\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="RedhedDuck.h">
+      <Filter>Файлы заголовков\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="MallardDuck.h">
+      <Filter>Файлы заголовков\Duck</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoyDuck.h">
+      <Filter>Файлы заголовков\Duck</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlyNoWay.cpp">
+      <Filter>Исходные файлы\Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithWings.cpp">
+      <Filter>Исходные файлы\Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackMute.cpp">
+      <Filter>Исходные файлы\Quack</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackQuack.cpp">
+      <Filter>Исходные файлы\Quack</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackSqueak.cpp">
+      <Filter>Исходные файлы\Quack</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoyDuck.cpp">
+      <Filter>Исходные файлы\Duck</Filter>
+    </ClCompile>
+    <ClCompile Include="MallardDuck.cpp">
+      <Filter>Исходные файлы\Duck</Filter>
+    </ClCompile>
+    <ClCompile Include="RedhedDuck.cpp">
+      <Filter>Исходные файлы\Duck</Filter>
+    </ClCompile>
+    <ClCompile Include="RubberDuck.cpp">
+      <Filter>Исходные файлы\Duck</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
