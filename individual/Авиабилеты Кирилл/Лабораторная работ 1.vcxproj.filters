@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Ticket">
+      <UniqueIdentifier>{8a456584-ef57-4671-9f70-1b19f61f503e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Ticket">
+      <UniqueIdentifier>{2264b236-9370-453f-a874-0f3d0b8ca87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Place">
+      <UniqueIdentifier>{e69d8147-0573-479d-9f48-607ea41e6fb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Place">
+      <UniqueIdentifier>{ef659a4e-35d2-41c1-ba1d-a63b04c54cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Return">
+      <UniqueIdentifier>{ab300685-ac27-4da3-aa25-5ddc7d605789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Return">
+      <UniqueIdentifier>{5302cb4c-1f53-441b-b510-6df86d41534d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="First.h">
+      <Filter>Файлы заголовков\Ticket</Filter>
+    </ClInclude>
+    <ClInclude Include="Business.h">
+      <Filter>Файлы заголовков\Ticket</Filter>
+    </ClInclude>
+    <ClInclude Include="Economy.h">
+      <Filter>Файлы заголовков\Ticket</Filter>
+    </ClInclude>
+    <ClInclude Include="HotTicket.h">
+      <Filter>Файлы заголовков\Ticket</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlace.h">
+      <Filter>Файлы заголовков\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="NoWindow.h">
+      <Filter>Файлы заголовков\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="NearWindow.h">
+      <Filter>Файлы заголовков\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="IReturn.h">
+      <Filter>Файлы заголовков\Return</Filter>
+    </ClInclude>
+    <ClInclude Include="hours_3.h">
+      <Filter>Файлы заголовков\Return</Filter>
+    </ClInclude>
+    <ClInclude Include="Days_3.h">
+      <Filter>Файлы заголовков\Return</Filter>
+    </ClInclude>
+    <ClInclude Include="NoReturn.h">
+      <Filter>Файлы заголовков\Return</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="First.cpp">
+      <Filter>Исходные файлы\Ticket</Filter>
+    </ClCompile>
+    <ClCompile Include="Business.cpp">
+      <Filter>Исходные файлы\Ticket</Filter>
+    </ClCompile>
+    <ClCompile Include="Economy.cpp">
+      <Filter>Исходные файлы\Ticket</Filter>
+    </ClCompile>
+    <ClCompile Include="HotTicket.cpp">
+      <Filter>Исходные файлы\Ticket</Filter>
+    </ClCompile>
+    <ClCompile Include="NoWindow.cpp">
+      <Filter>Исходные файлы\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="NearWindow.cpp">
+      <Filter>Исходные файлы\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="hours_3.cpp">
+      <Filter>Исходные файлы\Return</Filter>
+    </ClCompile>
+    <ClCompile Include="Days_3.cpp">
+      <Filter>Исходные файлы\Return</Filter>
+    </ClCompile>
+    <ClCompile Include="NoReturn.cpp">
+      <Filter>Исходные файлы\Return</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
