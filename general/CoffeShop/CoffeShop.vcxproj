@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{faf29308-af95-4cba-a8c1-756f8a68a0be}</ProjectGuid>
-    <RootNamespace>Лабораторнаяработ1</RootNamespace>
+    <ProjectGuid>{e606e232-a52e-4d5e-be02-fd5b94304dcb}</ProjectGuid>
+    <RootNamespace>CoffeShop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,30 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DecoyDuck.h" />
-    <ClInclude Include="Duck.h" />
-    <ClInclude Include="FlyNoWay.h" />
-    <ClInclude Include="FlyWithWings.h" />
-    <ClInclude Include="IFlyBehavior.h" />
-    <ClInclude Include="IQuackBehavior.h" />
-    <ClInclude Include="MallardDuck.h" />
-    <ClInclude Include="QuackMute.h" />
-    <ClInclude Include="QuackSqueak.h" />
-    <ClInclude Include="QuackQuack.h" />
-    <ClInclude Include="RedhedDuck.h" />
-    <ClInclude Include="RubberDuck.h" />
+    <ClInclude Include="Espresso.h" />
+    <ClInclude Include="IBeverage.h" />
+    <ClInclude Include="IDecorator.h" />
+    <ClInclude Include="Milk.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DecoyDuck.cpp" />
-    <ClCompile Include="FlyNoWay.cpp" />
-    <ClCompile Include="FlyWithWings.cpp" />
-    <ClCompile Include="MallardDuck.cpp" />
-    <ClCompile Include="QuackMute.cpp" />
-    <ClCompile Include="QuackSqueak.cpp" />
-    <ClCompile Include="QuackQuack.cpp" />
-    <ClCompile Include="RedhedDuck.cpp" />
-    <ClCompile Include="RubberDuck.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Espresso.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Milk.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
