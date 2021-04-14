@@ -24,5 +24,6 @@ public:
 	{
 		q1->Return();
 	}
+
 	virtual void display() = 0;
 };

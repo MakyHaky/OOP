@@ -7,5 +7,6 @@ Business::~Business(void)
 }
 void Business::display()
 {
-	cout << "Бизнес" << endl;
+	cout << "---------------------------------------------------------------" << endl;
+	cout << "> Бизнес" << endl;
 }

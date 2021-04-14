@@ -10,6 +10,7 @@
 #include "hours_3.h"
 #include <conio.h>
 #include <locale.h>
+#include "UncorrectAnswer.h"
 using namespace std;
 
 void main()
@@ -18,7 +19,7 @@ void main()
 	Ticket** di;
 	int a;
 	int n;
-	IPlace* pl_NearWindow, * pl_NoWindow;
+	IPlace* pl_NearWindow, * pl_NoWindow ;
 	IReturn* re_hours3, * re_days3, * re_noreturn;
 
 	re_hours3 = new hours_3(); 
@@ -57,19 +58,19 @@ void main()
 			di[i]->SetPlace(pl_NoWindow);
 			break;
 		default:
-			di[i] = new First();
-			di[i]->SetReturn(re_hours3);
-			di[i]->SetPlace(pl_NearWindow);
+			di[i] = new UncorrectAnswer();
+			di[i]->SetReturn(re_noreturn);
+			di[i]->SetPlace(pl_NoWindow);
 			break;
 		}
 	}
 	for (int i = 0; i < a; i++)
 	{
+		
 		di[i]->Choose();
-		di[i]->Return();
 		di[i]->display();
+		di[i]->Return();
 	}
-
 
 	for (int i = 0; i < a; i++)
 	{

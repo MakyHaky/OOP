@@ -8,5 +8,5 @@ NearWindow::~NearWindow(void)
 }
 void NearWindow::Choose()
 {
-	cout << "Рядом с окном ->  ";
+	cout << "> Рядом с окном";
 }

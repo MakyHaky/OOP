@@ -10,5 +10,6 @@ Economy::~Economy(void)
 
 void Economy::display()
 {
-	cout << "Ёконом" << endl;
+	cout << "---------------------------------------------------------------" << endl;
+	cout << "> Ёконом" << endl;
 }

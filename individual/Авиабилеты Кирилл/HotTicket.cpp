@@ -10,5 +10,6 @@ HotTicket::~HotTicket(void)
 
 void HotTicket::display()
 {
-	cout << "Горящий билет" << endl;
+	cout << "---------------------------------------------------------------" << endl;
+	cout << "> Горящий билет" << endl;
 }

@@ -8,5 +8,5 @@ NoWindow::~NoWindow(void)
 }
 void NoWindow::Choose()
 {
-	cout << "Не у окна -> ";
+	cout << "> Не у окна";
 }
