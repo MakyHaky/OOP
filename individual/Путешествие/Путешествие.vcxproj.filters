@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Place">
+      <UniqueIdentifier>{485f864e-c6e3-42b5-8bd4-8aa56f96de86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Place">
+      <UniqueIdentifier>{fc9548af-b851-4ec9-8e00-8510351d6fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Move">
+      <UniqueIdentifier>{2a328b82-ac57-495e-9a2b-3da4e3caef58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Move">
+      <UniqueIdentifier>{c865f203-c906-4e99-9f04-4e37b312d9df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Days">
+      <UniqueIdentifier>{6be1ea01-8b4d-4b20-b0c3-b4308a6ee03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Days">
+      <UniqueIdentifier>{76e9ae00-e026-4082-927e-231ea4ee02e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Hotel">
+      <UniqueIdentifier>{1420432d-3506-4a42-81f2-da68197d945a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Hotel">
+      <UniqueIdentifier>{d54c4741-dfee-4a8a-b17b-2151d362aeb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDecorator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ITravel.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Czech.h">
+      <Filter>Файлы заголовков\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="SaintPetersburg.h">
+      <Filter>Файлы заголовков\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="Japan.h">
+      <Filter>Файлы заголовков\Place</Filter>
+    </ClInclude>
+    <ClInclude Include="Bus.h">
+      <Filter>Файлы заголовков\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Файлы заголовков\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Train.h">
+      <Filter>Файлы заголовков\Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Days7.h">
+      <Filter>Файлы заголовков\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="Days14.h">
+      <Filter>Файлы заголовков\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="Days21.h">
+      <Filter>Файлы заголовков\Days</Filter>
+    </ClInclude>
+    <ClInclude Include="SeaView.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GuidedTours.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FiveStarHotel.h">
+      <Filter>Файлы заголовков\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="FourStarHotel.h">
+      <Filter>Файлы заголовков\Hotel</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeStarhHotel.h">
+      <Filter>Файлы заголовков\Hotel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SaintPetersburg.cpp">
+      <Filter>Исходные файлы\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="Japan.cpp">
+      <Filter>Исходные файлы\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="Czech.cpp">
+      <Filter>Исходные файлы\Place</Filter>
+    </ClCompile>
+    <ClCompile Include="Bus.cpp">
+      <Filter>Исходные файлы\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Исходные файлы\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Train.cpp">
+      <Filter>Исходные файлы\Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Days7.cpp">
+      <Filter>Исходные файлы\Days</Filter>
+    </ClCompile>
+    <ClCompile Include="Days21.cpp">
+      <Filter>Исходные файлы\Days</Filter>
+    </ClCompile>
+    <ClCompile Include="Days14.cpp">
+      <Filter>Исходные файлы\Days</Filter>
+    </ClCompile>
+    <ClCompile Include="SeaView.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GuidedTours.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FiveStarHotel.cpp">
+      <Filter>Исходные файлы\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="FourStarHotel.cpp">
+      <Filter>Исходные файлы\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeStarhHotel.cpp">
+      <Filter>Исходные файлы\Hotel</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
