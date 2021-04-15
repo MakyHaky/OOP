@@ -1,7 +1,8 @@
 #pragma once
 #include "IObserver.h"
+#include "IDisplayElement.h"
 class Science :
-    public IObserver
+    public IObserver, public IDisplayElement
 {
 public:
     Science(void);

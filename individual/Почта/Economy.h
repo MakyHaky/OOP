@@ -1,7 +1,8 @@
 #pragma once
 #include "IObserver.h"
+#include "IDisplayElement.h"
 class Economy :
-    public IObserver
+    public IObserver, public IDisplayElement
 {
 public:
     Economy(void);
