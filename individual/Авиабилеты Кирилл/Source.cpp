@@ -59,16 +59,15 @@ void main()
 			break;
 		default:
 			di[i] = new UncorrectAnswer();
-			di[i]->SetReturn(re_noreturn);
-			di[i]->SetPlace(pl_NoWindow);
+			di[i]->SetReturn();
+			di[i]->SetPlace();
 			break;
 		}
 	}
 	for (int i = 0; i < a; i++)
 	{
-		
-		di[i]->Choose();
 		di[i]->display();
+		di[i]->Choose();		
 		di[i]->Return();
 	}
 
