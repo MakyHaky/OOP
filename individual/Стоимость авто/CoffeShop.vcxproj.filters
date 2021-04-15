@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Equipment">
+      <UniqueIdentifier>{44702adc-3706-45e9-a7fd-a7976fa409e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Brand">
+      <UniqueIdentifier>{79340d44-e812-427a-921e-493cb7122fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Equipment">
+      <UniqueIdentifier>{086aaf70-f659-4221-b3bb-a76bfbf859a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Brand">
+      <UniqueIdentifier>{94560699-1d06-4d7b-bc6d-6393c20d391b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICar.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IDecorator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Luxe.h">
+      <Filter>Файлы заголовков\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="BMW.h">
+      <Filter>Файлы заголовков\Brand</Filter>
+    </ClInclude>
+    <ClInclude Include="Standart.h">
+      <Filter>Файлы заголовков\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Comfort.h">
+      <Filter>Файлы заголовков\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Lexus.h">
+      <Filter>Файлы заголовков\Brand</Filter>
+    </ClInclude>
+    <ClInclude Include="Toyota.h">
+      <Filter>Файлы заголовков\Brand</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Luxe.cpp">
+      <Filter>Исходные файлы\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="BMW.cpp">
+      <Filter>Исходные файлы\Brand</Filter>
+    </ClCompile>
+    <ClCompile Include="Standart.cpp">
+      <Filter>Исходные файлы\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Comfort.cpp">
+      <Filter>Исходные файлы\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Lexus.cpp">
+      <Filter>Исходные файлы\Brand</Filter>
+    </ClCompile>
+    <ClCompile Include="Toyota.cpp">
+      <Filter>Исходные файлы\Brand</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
