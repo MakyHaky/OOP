@@ -1,14 +1,15 @@
 #pragma once
 #include "IObserver.h"
 #include "IDisplayElement.h"
-class Science :
+class FirstSubscriber :
     public IObserver, public IDisplayElement
 {
+    string* News;
 public:
-    Science(void);
-    ~Science(void);
+    FirstSubscriber(void);
+    ~FirstSubscriber(void);
 
-    void update();
+    void update(string* News);
     void display();
 };
 

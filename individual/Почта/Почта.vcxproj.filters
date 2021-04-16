@@ -33,42 +33,30 @@
     <ClInclude Include="Mailing.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Cultural.h">
+    <ClInclude Include="FirstSubscriber.h">
       <Filter>Файлы заголовков\News</Filter>
     </ClInclude>
-    <ClInclude Include="Economy.h">
+    <ClInclude Include="SecondSubscriber.h">
       <Filter>Файлы заголовков\News</Filter>
     </ClInclude>
-    <ClInclude Include="Science.h">
-      <Filter>Файлы заголовков\News</Filter>
-    </ClInclude>
-    <ClInclude Include="Sport.h">
-      <Filter>Файлы заголовков\News</Filter>
-    </ClInclude>
-    <ClInclude Include="Programming.h">
+    <ClInclude Include="ThirdSubscriber.h">
       <Filter>Файлы заголовков\News</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Mailing.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Cultural.cpp">
+    <ClCompile Include="Mailing.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstSubscriber.cpp">
       <Filter>Исходные файлы\News</Filter>
     </ClCompile>
-    <ClCompile Include="Economy.cpp">
+    <ClCompile Include="SecondSubscriber.cpp">
       <Filter>Исходные файлы\News</Filter>
     </ClCompile>
-    <ClCompile Include="Science.cpp">
-      <Filter>Исходные файлы\News</Filter>
-    </ClCompile>
-    <ClCompile Include="Sport.cpp">
-      <Filter>Исходные файлы\News</Filter>
-    </ClCompile>
-    <ClCompile Include="Programming.cpp">
+    <ClCompile Include="ThirdSubscriber.cpp">
       <Filter>Исходные файлы\News</Filter>
     </ClCompile>
   </ItemGroup>

@@ -139,24 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Cultural.h" />
-    <ClInclude Include="Economy.h" />
+    <ClInclude Include="FirstSubscriber.h" />
+    <ClInclude Include="SecondSubscriber.h" />
     <ClInclude Include="IDisplayElement.h" />
     <ClInclude Include="IObservable.h" />
     <ClInclude Include="IObserver.h" />
     <ClInclude Include="Mailing.h" />
-    <ClInclude Include="Programming.h" />
-    <ClInclude Include="Science.h" />
-    <ClInclude Include="Sport.h" />
+    <ClInclude Include="ThirdSubscriber.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cultural.cpp" />
-    <ClCompile Include="Economy.cpp" />
+    <ClCompile Include="FirstSubscriber.cpp" />
+    <ClCompile Include="SecondSubscriber.cpp" />
     <ClCompile Include="Mailing.cpp" />
-    <ClCompile Include="Programming.cpp" />
-    <ClCompile Include="Science.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Sport.cpp" />
+    <ClCompile Include="ThirdSubscriber.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

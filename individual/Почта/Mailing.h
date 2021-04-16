@@ -3,7 +3,7 @@
 class Mailing :
     public IObservable
 {
-    string first, second;
+    string* News;
     IObserver** observers;
 public:
     Mailing(void);
@@ -11,6 +11,7 @@ public:
     void registerObserver(IObserver* a);
     void removeObserver(IObserver* a);
     void notifyObserver();
+    void getNews();
 
 };
 
