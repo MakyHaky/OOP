@@ -1,36 +1,35 @@
 #include "Mailing.h"
-#include "Cultural.h"
-#include "Economy.h"
-#include "Programming.h"
-#include "Science.h"
-#include "Sport.h"
-#include <conio.h>
+#include "FirstSubscriber.h"
+#include "SecondSubscriber.h"
+#include "ThirdSubscriber.h"
 #include <iostream>
+#include <windows.h>
 using namespace std;
+
 void main()
 {
-	Mailing first,second, third;
-	Cultural b;
-	Economy c;
-	Programming d;
-	Science e;
-	Sport f;
-	first.registerObserver(&c);
-	first.registerObserver(&f);
+	setlocale(LC_ALL, "Russian");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 
-	second.registerObserver(&c);
-	second.registerObserver(&b);
+	Mailing a;
+	FirstSubscriber b;
+	SecondSubscriber c;
+	ThirdSubscriber d;
 
-	third.registerObserver(&e);
-	third.registerObserver(&d);
-	cout << "First subscriber received ->" << endl;
-	first.notifyObserver();
+	a.registerObserver(&b);
+	a.registerObserver(&c);
+	a.registerObserver(&d);
 
-	cout << "second subscriber received ->" << endl;
-	second.notifyObserver();
+	a.getNews();
 
-	cout << "third subscriber received ->" << endl;
-	third.notifyObserver();
+	a.notifyObserver();
+	cout << "News for FirstSubscriber" << endl;
+	b.display();
+	cout << "News for SecondSubscriber" << endl;
+	c.display();
+	cout << "News for ThirdSubscriber" << endl;
+	d.display();
 
-	_getch();
+	system("pause");
 }

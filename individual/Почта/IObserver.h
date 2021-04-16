@@ -5,5 +5,5 @@ using namespace std;
 class IObserver
 {
 public:
-	virtual void update() = 0;
+	virtual void update(string* News) = 0;
 };
